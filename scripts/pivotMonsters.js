@@ -11,21 +11,21 @@ const environmentNames = Object.keys(data);
 const { environments, monsters } = environmentNames.reduce(
   ({ environments, monsters }, environment) => {
     const newEnvironment = { id: generateId(), name: environment };
+    const newMonsters = data[environment].map(monster => ({
+      ...monster,
+      environmentIds: [newEnvironment.id],
+      id: generateId()
+    }));
+    newEnvironment.monsterIds = newMonsters.map(monster => monster.id);
     return {
       environments: environments.concat([newEnvironment]),
-      monsters: monsters.concat(
-        data[environment].map(monster => ({
-          ...monster,
-          environmentId: newEnvironment.id,
-          id: generateId()
-        }))
-      )
+      monsters: monsters.concat(newMonsters)
     };
   },
   { environments: [], monsters: [] }
 );
 
-const outputPath = path.resolve(__dirname, "../data/db.json");
+const outputPath = path.resolve(__dirname, "../data/seed.json");
 
 fs.writeFileSync(
   outputPath,

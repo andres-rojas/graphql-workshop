@@ -1,0 +1,62 @@
+type Query {
+  monsters(filter: MonsterFilter): [Monster!]!
+  environments: [Environment!]!
+  monster(id: ID!): Monster
+  environment(id: ID!): Environment
+}
+
+type Mutation {
+  createMonster(monster: MonsterInput!): Monster
+}
+
+input MonsterInput {
+  name: String!
+  armor: Int = 2
+  attack: String
+  attack_tags: [Tags!]
+  damage: String
+  description: String
+  hp: Int
+  instinct: String
+  moves: [String!]
+  page: Int
+  specialQualities: String
+  url: String
+}
+
+input MonsterFilter {
+  name: String
+}
+
+type Monster {
+  armor: Int
+  attack: String
+  attack_tags: [Tags!]!
+  damage: String
+  description: String
+  hp: Int
+  instinct: String
+  moves: [String!]!
+  name: String
+  page: Int
+  specialQualities: String
+  url: String
+  environments: [Environment!]!
+  id: ID!
+}
+
+type Environment {
+  id: ID!
+  name: String
+  monsters: [Monster!]!
+}
+
+enum Tags {
+  CLOSE
+  REACH
+  MESSY
+  FORCEFUL
+  NEAR
+  HAND
+  FAR
+}
