@@ -56,7 +56,7 @@
       "page": 233,
       "special_qualities": "Burrowing",
       "url": "http://www.dungeonworldsrd.com/monsters#TOC-Ankheg",
-      "environments": ["qcvnFV9aD"],
+      "environmentId": "qcvnFV9aD",
       "id": "sKPoXj8vsi"
     },
     {
@@ -68,7 +68,10 @@
       "hp": "7",
       "instinct": "To devour",
       "monster_tags": "Horde, Small",
-      "moves": ["Swarm", "Rip something (or someone) apart"],
+      "moves": [
+        "Swarm",
+        "Rip something (or someone) apart"
+      ],
       "name": "Cave Rat",
       "page": 233,
       "special_qualities": "",
@@ -105,7 +108,9 @@
       "hp": "12",
       "instinct": "To engulf",
       "monster_tags": "Solitary, Stealthy",
-      "moves": ["Engulf the unsuspecting"],
+      "moves": [
+        "Engulf the unsuspecting"
+      ],
       "name": "Cloaker",
       "page": 234,
       "special_qualities": "Looks like a cloak",
@@ -122,7 +127,10 @@
       "hp": "7",
       "instinct": "To defend",
       "monster_tags": "Horde, Organized",
-      "moves": ["Drive them back", "Call up reinforcements"],
+      "moves": [
+        "Drive them back",
+        "Call up reinforcements"
+      ],
       "name": "Dwarven Warrior",
       "page": 235,
       "special_qualities": "",
@@ -139,7 +147,10 @@
       "hp": "27",
       "instinct": "To show the strength of earth",
       "monster_tags": "Solitary, Huge",
-      "moves": ["Turn the ground into a weapon", "Meld into stone"],
+      "moves": [
+        "Turn the ground into a weapon",
+        "Meld into stone"
+      ],
       "name": "Earth Elemental",
       "page": 235,
       "special_qualities": "Made of stone",
@@ -198,7 +209,10 @@
       "hp": "20",
       "instinct": "To clean",
       "monster_tags": "Solitary, Large, Stealthy, Amorphous",
-      "moves": ["Fill an apparently empty space", "Dissolve"],
+      "moves": [
+        "Fill an apparently empty space",
+        "Dissolve"
+      ],
       "name": "Gelatinous Cube",
       "page": 237,
       "special_qualities": "Transparent",
@@ -257,7 +271,10 @@
       "hp": "14",
       "instinct": "To retake",
       "monster_tags": "Group, Huge, Organized, Intelligent",
-      "moves": ["Shake the earth", "Retreat, only to come back stronger"],
+      "moves": [
+        "Shake the earth",
+        "Retreat, only to come back stronger"
+      ],
       "name": "Goliath",
       "page": 238,
       "special_qualities": "",
@@ -294,7 +311,9 @@
       "hp": "3",
       "instinct": "To eat",
       "monster_tags": "Horde, Small",
-      "moves": ["Paralyze with a touch"],
+      "moves": [
+        "Paralyze with a touch"
+      ],
       "name": "Maggot-Squid",
       "page": 239,
       "special_qualities": "Amphibious, Paralyzing Tentacles",
@@ -311,7 +330,10 @@
       "hp": "20",
       "instinct": "To consume",
       "monster_tags": "Solitary, Huge",
-      "moves": ["Swallow whole", "Tunnel through stone and earth"],
+      "moves": [
+        "Swallow whole",
+        "Tunnel through stone and earth"
+      ],
       "name": "Purple Worm",
       "page": 239,
       "special_qualities": "Burrowing",
@@ -328,7 +350,11 @@
       "hp": "16",
       "instinct": "To ambush",
       "monster_tags": "Solitary, Large, Stealthy, Intelligent",
-      "moves": ["Ensnare the unsuspecting", "Disarm a foe", "Chew on someone"],
+      "moves": [
+        "Ensnare the unsuspecting",
+        "Disarm a foe",
+        "Chew on someone"
+      ],
       "name": "Roper",
       "page": 240,
       "special_qualities": "Rock-like Flesh",
@@ -366,7 +392,10 @@
       "hp": "16",
       "instinct": "To weave webs (literal and metaphorical)",
       "monster_tags": "Solitary, Large, Devious, Intelligent",
-      "moves": ["Enmesh in webbing", "Put a plot into motion"],
+      "moves": [
+        "Enmesh in webbing",
+        "Put a plot into motion"
+      ],
       "name": "Spiderlord",
       "page": 241,
       "special_qualities": "Burrowing",
@@ -383,7 +412,10 @@
       "hp": "",
       "instinct": "To prey on civilization",
       "monster_tags": "Group, Organized",
-      "moves": ["Raid and retreat", "Use scavenged weapons or magic"],
+      "moves": [
+        "Raid and retreat",
+        "Use scavenged weapons or magic"
+      ],
       "name": "Troglodyte",
       "page": 241,
       "special_qualities": "",
@@ -400,7 +432,10 @@
       "hp": "15",
       "instinct": "To grow",
       "monster_tags": "Solitary, Stealthy, Amorphous",
-      "moves": ["Shoot forth new growth", "Attack the unwary"],
+      "moves": [
+        "Shoot forth new growth",
+        "Attack the unwary"
+      ],
       "name": "Assassin Vine",
       "page": 265,
       "special_qualities": "Plant",
@@ -479,7 +514,9 @@
       "hp": "6",
       "instinct": "To defend the nest",
       "monster_tags": "Group, Small, Hoarder",
-      "moves": ["Start a slow transformation to stone"],
+      "moves": [
+        "Start a slow transformation to stone"
+      ],
       "name": "Cockatrice",
       "page": 267,
       "special_qualities": "Stone touch",
@@ -600,7 +637,11 @@
       "hp": "10",
       "instinct": "Ruin everything.",
       "monster_tags": "Group, Huge, Intelligent, Organized",
-      "moves": ["Throw something", "Do something stupid", "Shake the earth"],
+      "moves": [
+        "Throw something",
+        "Do something stupid",
+        "Shake the earth"
+      ],
       "name": "Hill Giant",
       "page": 270,
       "special_qualities": "",
@@ -638,7 +679,10 @@
       "hp": "16",
       "instinct": "To shred",
       "monster_tags": "Solitary",
-      "moves": ["Rip them apart", "Rend armor and weapons"],
+      "moves": [
+        "Rip them apart",
+        "Rend armor and weapons"
+      ],
       "name": "Razor Boar",
       "page": 270,
       "special_qualities": "",
@@ -739,7 +783,10 @@
       "hp": "3",
       "instinct": "To serve",
       "monster_tags": "Horde, Organized",
-      "moves": ["Carry a rider into battle", "Give its rider an advantage"],
+      "moves": [
+        "Carry a rider into battle",
+        "Give its rider an advantage"
+      ],
       "name": "Worg",
       "page": 273,
       "special_qualities": "",
@@ -756,7 +803,10 @@
       "hp": "",
       "instinct": "",
       "monster_tags": "",
-      "moves": ["Follow dogma", "Offer eternal reward for mortal deeds"],
+      "moves": [
+        "Follow dogma",
+        "Offer eternal reward for mortal deeds"
+      ],
       "name": "Acolyte",
       "page": 313,
       "special_qualities": "",
@@ -794,7 +844,10 @@
       "hp": "",
       "instinct": "To rob",
       "monster_tags": "Horde, Intelligent, Organized",
-      "moves": ["Steal something", "Demand tribute"],
+      "moves": [
+        "Steal something",
+        "Demand tribute"
+      ],
       "name": "Bandit",
       "page": 314,
       "special_qualities": "",
@@ -811,7 +864,11 @@
       "hp": "12",
       "instinct": "To lead",
       "monster_tags": "Solitary, Intelligent, Organized",
-      "moves": ["Make a demand", "Extort", "Topple power"],
+      "moves": [
+        "Make a demand",
+        "Extort",
+        "Topple power"
+      ],
       "name": "Bandit King",
       "page": 314,
       "special_qualities": "",
@@ -828,7 +885,10 @@
       "hp": "",
       "instinct": "",
       "monster_tags": "",
-      "moves": ["Expose injustice", "Play a trick"],
+      "moves": [
+        "Expose injustice",
+        "Play a trick"
+      ],
       "name": "Fool",
       "page": 314,
       "special_qualities": "",
@@ -845,7 +905,10 @@
       "hp": "6",
       "instinct": "To do as ordered",
       "monster_tags": "Group, Intelligent, Organized",
-      "moves": ["Uphold the law", "Make a profit"],
+      "moves": [
+        "Uphold the law",
+        "Make a profit"
+      ],
       "name": "Guardsman",
       "page": 315,
       "special_qualities": "",
@@ -862,7 +925,10 @@
       "hp": "12",
       "instinct": "To live a life of stolen luxury",
       "monster_tags": "Solitary, Small, Intelligent, Stealthy, Devious",
-      "moves": ["Steal", "Put on the appearance of friendship"],
+      "moves": [
+        "Steal",
+        "Put on the appearance of friendship"
+      ],
       "name": "Halfling Thief",
       "page": 315,
       "special_qualities": "",
@@ -920,7 +986,10 @@
       "hp": "6",
       "instinct": "To survive",
       "monster_tags": "Group, Intelligent",
-      "moves": ["Bring back news from the wilds", "Slay a beast"],
+      "moves": [
+        "Bring back news from the wilds",
+        "Slay a beast"
+      ],
       "name": "Hunter",
       "page": 316,
       "special_qualities": "",
@@ -937,7 +1006,10 @@
       "hp": "12",
       "instinct": "To live by a code",
       "monster_tags": "Solitary, Intelligent, Organized, Cautious",
-      "moves": ["Make a moral stand", "Lead soldiers into battle"],
+      "moves": [
+        "Make a moral stand",
+        "Lead soldiers into battle"
+      ],
       "name": "Knight",
       "page": 317,
       "special_qualities": "",
@@ -954,7 +1026,10 @@
       "hp": "",
       "instinct": "",
       "monster_tags": "",
-      "moves": ["Propose a business venture", "Offer a “deal”"],
+      "moves": [
+        "Propose a business venture",
+        "Offer a “deal”"
+      ],
       "name": "Merchant",
       "page": 317,
       "special_qualities": "",
@@ -971,7 +1046,10 @@
       "hp": "",
       "instinct": "",
       "monster_tags": "",
-      "moves": ["Issue an order", "Offer a reward"],
+      "moves": [
+        "Issue an order",
+        "Offer a reward"
+      ],
       "name": "Noble",
       "page": 317,
       "special_qualities": "",
@@ -988,7 +1066,10 @@
       "hp": "",
       "instinct": "",
       "monster_tags": "",
-      "moves": ["Plead for help", "Offer a simple reward and gratitude"],
+      "moves": [
+        "Plead for help",
+        "Offer a simple reward and gratitude"
+      ],
       "name": "Peasant",
       "page": 318,
       "special_qualities": "",
@@ -1005,7 +1086,10 @@
       "hp": "3",
       "instinct": "To upset order",
       "monster_tags": "Horde, Intelligent, Organized",
-      "moves": ["Die for a cause", "Inspire others"],
+      "moves": [
+        "Die for a cause",
+        "Inspire others"
+      ],
       "name": "Rebel",
       "page": 318,
       "special_qualities": "",
@@ -1022,7 +1106,10 @@
       "hp": "3",
       "instinct": "To fight",
       "monster_tags": "Horde, Intelligent, Organized",
-      "moves": ["March into battle", "Fight as one"],
+      "moves": [
+        "March into battle",
+        "Fight as one"
+      ],
       "name": "Soldier",
       "page": 319,
       "special_qualities": "",
@@ -1039,7 +1126,10 @@
       "hp": "",
       "instinct": "",
       "monster_tags": "",
-      "moves": ["Report the truth", "Double cross"],
+      "moves": [
+        "Report the truth",
+        "Double cross"
+      ],
       "name": "Spy",
       "page": 319,
       "special_qualities": "",
@@ -1118,7 +1208,10 @@
       "hp": "19",
       "instinct": "To undermine the established order",
       "monster_tags": "Solitary, Amorphous",
-      "moves": ["Rewrite reality", "Unleash chaos from containment"],
+      "moves": [
+        "Rewrite reality",
+        "Unleash chaos from containment"
+      ],
       "name": "Chaos Spawn",
       "page": 298,
       "special_qualities": "Chaos form",
@@ -1176,7 +1269,10 @@
       "hp": "6",
       "instinct": "To punish unbelievers",
       "monster_tags": "Group, Intelligent, Organized",
-      "moves": ["Inflict pain beyond measure", "Use the dark to advantage"],
+      "moves": [
+        "Inflict pain beyond measure",
+        "Use the dark to advantage"
+      ],
       "name": "Deep Elf Swordmaster",
       "page": 299,
       "special_qualities": "",
@@ -1235,7 +1331,9 @@
       "hp": "16",
       "instinct": "To serve",
       "monster_tags": "Solitary, Large",
-      "moves": ["Tear something apart"],
+      "moves": [
+        "Tear something apart"
+      ],
       "name": "Gray Render",
       "page": 301,
       "special_qualities": "",
@@ -1273,7 +1371,10 @@
       "hp": "16",
       "instinct": "To contain",
       "monster_tags": "Solitary, Large",
-      "moves": ["Confuse them", "Make them lost"],
+      "moves": [
+        "Confuse them",
+        "Make them lost"
+      ],
       "name": "Minotaur",
       "page": 302,
       "special_qualities": "Unerring sense of direction",
@@ -1311,7 +1412,10 @@
       "hp": "7",
       "instinct": "To consume in flame",
       "monster_tags": "Horde, Large, Intelligent, Organized, Planar",
-      "moves": ["Summon elemental fire", "Melt away deception"],
+      "moves": [
+        "Summon elemental fire",
+        "Melt away deception"
+      ],
       "name": "Salamander",
       "page": 303,
       "special_qualities": "Burrowing",
@@ -1349,7 +1453,10 @@
       "hp": "16",
       "instinct": "To rend flesh and spill blood",
       "monster_tags": "Solitary, Large, Planar, Terrifying",
-      "moves": ["Impale someone", "Kill indiscriminately"],
+      "moves": [
+        "Impale someone",
+        "Kill indiscriminately"
+      ],
       "name": "Barbed Devil",
       "page": 305,
       "special_qualities": "Spines",
@@ -1387,7 +1494,9 @@
       "hp": "",
       "instinct": "",
       "monster_tags": "Solitary, Devious, Planar, Amorphous",
-      "moves": ["Demonstrate its concept in its purest form"],
+      "moves": [
+        "Demonstrate its concept in its purest form"
+      ],
       "name": "Concept Elemental",
       "page": 306,
       "special_qualities": "Special Qualities: Ideal form",
@@ -1466,7 +1575,10 @@
       "hp": "7",
       "instinct": "To harass",
       "monster_tags": "Horde, Planar, Intelligent, Organized",
-      "moves": ["Send information back to hell", "Cause mischief"],
+      "moves": [
+        "Send information back to hell",
+        "Cause mischief"
+      ],
       "name": "Imp",
       "page": 308,
       "special_qualities": "",
@@ -1525,7 +1637,10 @@
       "hp": "7",
       "instinct": "To ride rampant",
       "monster_tags": "Horde, Large, Magical, Terrifying, Planar",
-      "moves": ["Sheath a rider in hellish flame", "Drive them away"],
+      "moves": [
+        "Sheath a rider in hellish flame",
+        "Drive them away"
+      ],
       "name": "Nightmare",
       "page": 310,
       "special_qualities": "Flame and shadow",
@@ -1542,7 +1657,10 @@
       "hp": "7",
       "instinct": "To serve",
       "monster_tags": "Horde, Planar",
-      "moves": ["Attack with abandon", "Inflict pain"],
+      "moves": [
+        "Attack with abandon",
+        "Inflict pain"
+      ],
       "name": "Quasit",
       "page": 310,
       "special_qualities": "Adaptable form",
@@ -1599,7 +1717,11 @@
       "hp": "7",
       "instinct": "To follow orders",
       "monster_tags": "Horde, Organized, Cautious",
-      "moves": ["Raise the alarm", "Create value for the hive", "Assimilate"],
+      "moves": [
+        "Raise the alarm",
+        "Create value for the hive",
+        "Assimilate"
+      ],
       "name": "Formian Drone",
       "page": 275,
       "special_qualities": "Hive connection, Insectoid",
@@ -1616,7 +1738,10 @@
       "hp": "6",
       "instinct": "To command",
       "monster_tags": "Group, Organized, Intelligent",
-      "moves": ["Order drones into battle", "Set great numbers in motion"],
+      "moves": [
+        "Order drones into battle",
+        "Set great numbers in motion"
+      ],
       "name": "Formian Taskmaster",
       "page": 275,
       "special_qualities": "Hive connection, Insectoid",
@@ -1675,7 +1800,10 @@
       "hp": "",
       "instinct": "To prey on weakness",
       "monster_tags": "Group, Organized, Intelligent",
-      "moves": ["Doggedly track prey", "Strike at a moment of weakness"],
+      "moves": [
+        "Doggedly track prey",
+        "Strike at a moment of weakness"
+      ],
       "name": "Gnoll Tracker",
       "page": 278,
       "special_qualities": "Scent-tracker",
@@ -1692,7 +1820,10 @@
       "hp": "18",
       "instinct": "To share divine insight",
       "monster_tags": "Solitary, Divine, Intelligent, Organized",
-      "moves": ["Pass on demonic influence", "Drive the pack into a fervor"],
+      "moves": [
+        "Pass on demonic influence",
+        "Drive the pack into a fervor"
+      ],
       "name": "Gnoll Emissary",
       "page": 278,
       "special_qualities": "Scent",
@@ -1709,7 +1840,10 @@
       "hp": "",
       "instinct": "To drive the pack",
       "monster_tags": "Solitary, Intelligent, Organized",
-      "moves": ["Demand obedience", "Send the pack to hunt"],
+      "moves": [
+        "Demand obedience",
+        "Send the pack to hunt"
+      ],
       "name": "Gnoll Alpha",
       "page": 279,
       "special_qualities": "Scent",
@@ -1726,7 +1860,10 @@
       "hp": "3",
       "instinct": "To fight",
       "monster_tags": "Horde, Intelligent, Organized",
-      "moves": ["Fight with abandon", "Revel in destruction"],
+      "moves": [
+        "Fight with abandon",
+        "Revel in destruction"
+      ],
       "name": "Orc Bloodwarrior",
       "page": 280,
       "special_qualities": "",
@@ -1743,7 +1880,10 @@
       "hp": "20",
       "instinct": "To rage",
       "monster_tags": "Solitary, Large, Divine, Intelligent, Organized",
-      "moves": ["Fly into a frenzy", "Unleash chaos"],
+      "moves": [
+        "Fly into a frenzy",
+        "Unleash chaos"
+      ],
       "name": "Orc Berserker",
       "page": 280,
       "special_qualities": "Mutations",
@@ -1760,7 +1900,10 @@
       "hp": "16",
       "instinct": "To smash",
       "monster_tags": "Solitary, Large",
-      "moves": ["Destroy armor or protection", "Lay low the mighty"],
+      "moves": [
+        "Destroy armor or protection",
+        "Lay low the mighty"
+      ],
       "name": "Orc Breaker",
       "page": 281,
       "special_qualities": "",
@@ -1820,7 +1963,11 @@
       "hp": "3",
       "instinct": "To take",
       "monster_tags": "Horde, Stealthy, Intelligent, Organized",
-      "moves": ["Take a captive", "Pin someone under a net", "Drug them"],
+      "moves": [
+        "Take a captive",
+        "Pin someone under a net",
+        "Drug them"
+      ],
       "name": "Orc Slaver",
       "page": 282,
       "special_qualities": "",
@@ -1858,7 +2005,11 @@
       "hp": "16",
       "instinct": "To lead",
       "monster_tags": "Solitary, Intelligent, Organized",
-      "moves": ["Start a war", "Make a show of power", "Enrage the tribes"],
+      "moves": [
+        "Start a war",
+        "Make a show of power",
+        "Enrage the tribes"
+      ],
       "name": "Orc Warchief",
       "page": 283,
       "special_qualities": "One-Eye blessings, Shaman blessings, Divine protection from mortal harm",
@@ -1875,7 +2026,10 @@
       "hp": "12",
       "instinct": "To spy on the surface world",
       "monster_tags": "Solitary, Stealthy, Intelligent, Organized",
-      "moves": ["Reveal their secrets", "Strike at weakness"],
+      "moves": [
+        "Reveal their secrets",
+        "Strike at weakness"
+      ],
       "name": "Triton Spy",
       "page": 284,
       "special_qualities": "Aquatic",
@@ -1913,7 +2067,10 @@
       "hp": "6",
       "instinct": "To wage war",
       "monster_tags": "Group, Organized, Intelligent",
-      "moves": ["Lead tritons to battle", "Pull them beneath the waves"],
+      "moves": [
+        "Lead tritons to battle",
+        "Pull them beneath the waves"
+      ],
       "name": "Triton Sub-Mariner",
       "page": 285,
       "special_qualities": "Aquatic",
@@ -1930,7 +2087,10 @@
       "hp": "6",
       "instinct": "To lead",
       "monster_tags": "Group, Organized, Intelligent",
-      "moves": ["Stir tritons to war", "Call reinforcements"],
+      "moves": [
+        "Stir tritons to war",
+        "Call reinforcements"
+      ],
       "name": "Triton Noble",
       "page": 285,
       "special_qualities": "Aquatic",
@@ -2153,7 +2313,10 @@
       "hp": "7",
       "instinct": "To wage war",
       "monster_tags": "Horde, Small, Intelligent",
-      "moves": ["Launch an amphibious assault", "Heal at a prodigious rate"],
+      "moves": [
+        "Launch an amphibious assault",
+        "Heal at a prodigious rate"
+      ],
       "name": "Frogman",
       "page": 248,
       "special_qualities": "Amphibious",
@@ -2211,7 +2374,10 @@
       "hp": "6",
       "instinct": "To destroy civilization",
       "monster_tags": "Group, Stealthy, Intelligent, Organized",
-      "moves": ["Ambush the unsuspecting", "Launch an amphibious assault"],
+      "moves": [
+        "Ambush the unsuspecting",
+        "Launch an amphibious assault"
+      ],
       "name": "Lizardman",
       "page": 249,
       "special_qualities": "Amphibious",
@@ -2373,7 +2539,11 @@
       "hp": "16",
       "instinct": "To do as commanded",
       "monster_tags": "Solitary, Large, Construct",
-      "moves": ["Belch forth flame", "Run them over", "Poison them"],
+      "moves": [
+        "Belch forth flame",
+        "Run them over",
+        "Poison them"
+      ],
       "name": "Chimera",
       "page": 287,
       "special_qualities": "",
@@ -2410,7 +2580,10 @@
       "hp": "16",
       "instinct": "To digest",
       "monster_tags": "Solitary, Large, Construct",
-      "moves": ["Eat away at something", "Draw sustenance"],
+      "moves": [
+        "Eat away at something",
+        "Draw sustenance"
+      ],
       "name": "Digester",
       "page": 288,
       "special_qualities": "Digest acid secretion",
@@ -2448,7 +2621,10 @@
       "hp": "16",
       "instinct": "To smash",
       "monster_tags": "Solitary, Large, Construct",
-      "moves": ["Attack two enemies at once", "Defend its creator"],
+      "moves": [
+        "Attack two enemies at once",
+        "Defend its creator"
+      ],
       "name": "Ettin",
       "page": 289,
       "special_qualities": "Two heads",
@@ -2506,7 +2682,10 @@
       "hp": "3",
       "instinct": "To live",
       "monster_tags": "Horde",
-      "moves": ["Follow orders", "Detach a body part"],
+      "moves": [
+        "Follow orders",
+        "Detach a body part"
+      ],
       "name": "Flesh Golem",
       "page": 291,
       "special_qualities": "Many body parts",
@@ -2543,7 +2722,10 @@
       "hp": "16",
       "instinct": "To kill",
       "monster_tags": "Solitary, Large, Construct",
-      "moves": ["Poison them", "Rip something apart"],
+      "moves": [
+        "Poison them",
+        "Rip something apart"
+      ],
       "name": "Manticore",
       "page": 292,
       "special_qualities": "Wings",
@@ -2560,7 +2742,9 @@
       "hp": "12",
       "instinct": "To hunt",
       "monster_tags": "Solitary, Construct",
-      "moves": ["Strike from darkness"],
+      "moves": [
+        "Strike from darkness"
+      ],
       "name": "Owlbear",
       "page": 292,
       "special_qualities": "",
@@ -2577,7 +2761,10 @@
       "hp": "10",
       "instinct": "To carry aloft",
       "monster_tags": "Group, Construct",
-      "moves": ["Carry a rider into the air", "Give their rider an advantage"],
+      "moves": [
+        "Carry a rider into the air",
+        "Give their rider an advantage"
+      ],
       "name": "Pegasus",
       "page": 293,
       "special_qualities": "Wings",
@@ -2594,7 +2781,10 @@
       "hp": "6",
       "instinct": "To decay",
       "monster_tags": "Group, Construct",
-      "moves": ["Turn metal to rust", "Gain strength from consuming metal"],
+      "moves": [
+        "Turn metal to rust",
+        "Gain strength from consuming metal"
+      ],
       "name": "Rust Monster",
       "page": 293,
       "special_qualities": "Corrosive touch",
@@ -2611,7 +2801,10 @@
       "hp": "12",
       "instinct": "To eat",
       "monster_tags": "Solitary, Large, Construct",
-      "moves": ["Consume stone", "Give off a burst of light and heat"],
+      "moves": [
+        "Consume stone",
+        "Give off a burst of light and heat"
+      ],
       "name": "Xorn",
       "page": 294,
       "special_qualities": "Burrowing",
@@ -2628,7 +2821,10 @@
       "hp": "20",
       "instinct": "To end life",
       "monster_tags": "Solitary, Large, Construct, Terrifying",
-      "moves": ["Tear flesh apart", "Spill forth putrid guts"],
+      "moves": [
+        "Tear flesh apart",
+        "Spill forth putrid guts"
+      ],
       "name": "Abomination",
       "page": 255,
       "special_qualities": "Many limbs, heads, and so on",
@@ -2666,7 +2862,10 @@
       "hp": "16",
       "instinct": "To feast on souls",
       "monster_tags": "Solitary, Large, Intelligent, Hoarder",
-      "moves": ["Devour or trap dying soul", "Bargain for a soul’s return"],
+      "moves": [
+        "Devour or trap dying soul",
+        "Bargain for a soul’s return"
+      ],
       "name": "Devourer",
       "page": 256,
       "special_qualities": "",
@@ -2683,7 +2882,9 @@
       "hp": "20",
       "instinct": "To serve",
       "monster_tags": "Solitary, Huge",
-      "moves": ["Attack unrelentingly"],
+      "moves": [
+        "Attack unrelentingly"
+      ],
       "name": "Dragonbone",
       "page": 256,
       "special_qualities": "",
@@ -2700,7 +2901,10 @@
       "hp": "7",
       "instinct": "To take from the living",
       "monster_tags": "Horde, Organized",
-      "moves": ["Freeze flesh", "Call on the unworthy dead"],
+      "moves": [
+        "Freeze flesh",
+        "Call on the unworthy dead"
+      ],
       "name": "Draugr",
       "page": 257,
       "special_qualities": "Icy touch",
@@ -2738,7 +2942,10 @@
       "hp": "10",
       "instinct": "To eat",
       "monster_tags": "Group",
-      "moves": ["Gnaw off a body part", "Gain the memories of their meal"],
+      "moves": [
+        "Gnaw off a body part",
+        "Gain the memories of their meal"
+      ],
       "name": "Ghoul",
       "page": 258,
       "special_qualities": "",
@@ -2776,7 +2983,10 @@
       "hp": "10",
       "instinct": "To wreak havoc",
       "monster_tags": "Group",
-      "moves": ["Rage", "Add to their collection of guts"],
+      "moves": [
+        "Rage",
+        "Add to their collection of guts"
+      ],
       "name": "Mohrg",
       "page": 259,
       "special_qualities": "",
@@ -2793,7 +3003,11 @@
       "hp": "16",
       "instinct": "To enjoy eternal rest",
       "monster_tags": "Solitary, Divine, Hoarder",
-      "moves": ["Curse them", "Wrap them up", "Rise again"],
+      "moves": [
+        "Curse them",
+        "Wrap them up",
+        "Rise again"
+      ],
       "name": "Mummy",
       "page": 259,
       "special_qualities": "",
@@ -2810,7 +3024,10 @@
       "hp": "7",
       "instinct": "To hunt",
       "monster_tags": "Horde, Stealthy",
-      "moves": ["Attack from the night sky", "Fly away with prey"],
+      "moves": [
+        "Attack from the night sky",
+        "Fly away with prey"
+      ],
       "name": "Nightwing",
       "page": 260,
       "special_qualities": "Wings",
@@ -2827,7 +3044,10 @@
       "hp": "11",
       "instinct": "To darken",
       "monster_tags": "Horde, Large, Magical, Construct",
-      "moves": ["Snuff out light", "Spawn another shadow from the dead"],
+      "moves": [
+        "Snuff out light",
+        "Spawn another shadow from the dead"
+      ],
       "name": "Shadow",
       "page": 260,
       "special_qualities": "Shadow Form",
@@ -2844,7 +3064,10 @@
       "hp": "11",
       "instinct": "To disturb",
       "monster_tags": "Horde, Large, Construct",
-      "moves": ["Poison them", "Do a vampire’s bidding"],
+      "moves": [
+        "Poison them",
+        "Do a vampire’s bidding"
+      ],
       "name": "Sigben",
       "page": 261,
       "special_qualities": "Vampire spawn",
@@ -2923,7 +3146,10 @@
       "hp": "7",
       "instinct": "To hunt",
       "monster_tags": "Horde, Organized, Intelligent",
-      "moves": ["Encircle prey", "Summon the pack"],
+      "moves": [
+        "Encircle prey",
+        "Summon the pack"
+      ],
       "name": "Wight-Wolf",
       "page": 263,
       "special_qualities": "Shadow form",
