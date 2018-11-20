@@ -35,6 +35,7 @@ const useYarn = fs.existsSync(paths.yarnLockFile);
 const isInteractive = process.stdout.isTTY;
 const jsonServer = require("json-server");
 const axios = require("axios");
+const morgan = require("morgan");
 
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
@@ -110,20 +111,24 @@ ensureDB()
         })
       }
     });
+    server.express.use(morgan("dev"));
     server.express.use(
       "/rest",
       jsonServer.router(path.resolve(__dirname, "../data/db.json"))
     );
     server.express.use(devMiddleware);
-    const app = server.start({ port, playground: "/playground" }, err => {
-      if (err) {
-        return console.log(err);
+    const app = server.start(
+      { port, playground: "/playground", debug: true },
+      err => {
+        if (err) {
+          return console.log(err);
+        }
+        console.log(chalk.cyan("Starting the development server...\n"));
       }
-      console.log(chalk.cyan("Starting the development server...\n"));
-    });
+    );
     ["SIGINT", "SIGTERM"].forEach(function(sig) {
       process.on(sig, function() {
-        app.close();
+        app.stop();
         process.exit();
       });
     });
