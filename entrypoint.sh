@@ -5,4 +5,4 @@ set -x
 cd /app
 npm install
 
-exec /bin/bash
+[ $# -eq 0 ] && exec /bin/bash || exec $@
