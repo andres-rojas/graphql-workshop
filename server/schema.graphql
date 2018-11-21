@@ -1,3 +1,19 @@
 type Query {
   hello: String
+  monsters: [Monster!]!
+}
+
+type Mutation {
+  createMonster(monster: MonsterInput): Monster
+}
+
+type Monster {
+  id: ID
+  hp: Int
+  name: String
+}
+
+input MonsterInput {
+  hp: Int
+  name: String!
 }
